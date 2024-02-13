@@ -7,8 +7,7 @@ Once criteria is seleted, the user is presented with a random password that matc
 
 ## Screenshots
 
-[img](/assets/images/Password%20Generator.png)
-[img](/assets/images/Screenshot.png)
+![Password Generator image](/assets/images/Password%20Generator.png)
 
 ## License
 
