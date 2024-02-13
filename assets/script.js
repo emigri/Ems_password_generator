@@ -130,8 +130,6 @@ function generatePassword() {
   var password = ""
   var allChars = ""
 
-  console.log(['1', '2', '3'] + ['3', '4', '5'])
-
   if (passwordOptions.selectedCharacterTypes.includes('numeric')){
     password += numericCharacters[Math.floor(Math.random() * numericCharacters.length)];
     allChars += numericCharacters.join('');
@@ -149,13 +147,10 @@ function generatePassword() {
     allChars += specialCharacters.join('');
   }
 
-  console.log(allChars)
-
 
   while (passwordLength > password.length) {
     password += allChars[Math.floor(Math.random() * allChars.length)]
   }  
-  console.log(password)
   return password
 
 }
